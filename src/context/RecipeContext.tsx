@@ -7,7 +7,6 @@ import React, {
 } from "react";
 import Recipe from "../models/Recipe.model";
 
-const RECIPES_URL_KEY = import.meta.env.VITE_BASE_URL;
 interface RecipeContextType {
   recipes: Recipe[] | null;
   setRecipes: React.Dispatch<React.SetStateAction<Recipe[] | null>>;
